@@ -6,7 +6,7 @@ on:
 # Jobs Tells what the workflow  should run
 jobs:
   say-hello:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     steps: 
       - name: Say hello to everyone
         run: echo "Hello"
