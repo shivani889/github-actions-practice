@@ -1,0 +1,12 @@
+# Workflow
+name: Hello
+
+on:
+  workflow_dispatch:
+# Jobs Tells what the workflow  should run
+jobs:
+  say-hello:
+    runs-on: ubantu-latest
+    steps: 
+      - name: Say hello to everyone
+        run: echo "Hello"
